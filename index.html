@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head><title>SimulSearch</title></head>
+<body>
+<h1>
+SimulSearch
+</h1>
+
+
+Submit the form below to search for your keywords.  Enter the maximum and minimum distance in characters (i.e. 'a b c 1 2 3...') 
+you'd like the keywords to be from one another. Documents are converted to lowercase, so please use lowercase search terms only 
+in this version.
+<br>
+<br>
+<form enctype="multipart/form-data" action="upload_catcher.php" method="POST">
+Keyword 1:<br>
+<input name="keyone" type ="text" value="" />
+<br>
+Keyword 2:<br>
+<input name="keytwo" type="text" value="" />
+<br>
+Maximum characters apart:<br>
+<input name="maxchar" type ="text" value="" />
+<br>
+Minimum characters apart:<br>
+<input name="minchar" type ="text" value="" />
+<br>
+Upload Your File (Current version only supports TEXT/TXT.  <a href="http://www.convertpdftotext.net/">PDF->TXT</a> and DOC/X->TXT converters are prevalent on the Web):
+<br>
+<input name="uploadedfile" type="file" /><br> 
+<input type="submit" value="Submit Form" />
+</form>
+
+
+</body>
+</html>
